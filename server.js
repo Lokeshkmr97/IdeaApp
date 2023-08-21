@@ -1,9 +1,9 @@
 const express=require('express')
-
+const serverConfig=require('./configs/server.config');
 
 const app=express()
 
 
-app.listen(8080,()=>{
+app.listen(serverConfig.PORT,()=>{
     console.log('Server Started')
 })
