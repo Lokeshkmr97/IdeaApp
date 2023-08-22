@@ -12,3 +12,7 @@ pushing code on github
 git add .
 git commit -m 'starting server'
 git push
+
+install for database
+=====================
+npm install mongoose
